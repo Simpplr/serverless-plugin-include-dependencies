@@ -99,7 +99,7 @@ module.exports = function(filename, serverless, cache) {
 
     const { packageJson } = currentModule;
 
-    ['dependencies', 'peerDependencies', 'optionalDependencies'].forEach(key => {
+    ['dependencies', 'peerDependencies', 'optionalDependencies', 'peerDependenciesMeta'].forEach(key => {
       const dependencies = packageJson[key];
 
       if (dependencies) {
