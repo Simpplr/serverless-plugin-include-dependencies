@@ -29,7 +29,7 @@
     "updater-contributors": "^0.1.2"
   },
   "dependencies": {
-    "micromatch": "^4.0.2",
+    "micromatch": "^4.0.7",
     "precinct": "^8.1.0",
     "read-pkg-up": "^7.0.1",
     "require-package-name": "^2.0.1",
